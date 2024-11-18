@@ -1,0 +1,146 @@
+/* Extra small screens */
+/* hint : smart watches */
+@media all and (width <=640px) {
+    /* code excute when sreen extra small */
+    .container{
+
+        width: 100%;
+        padding: 0 15px;
+        grid-template-areas: 
+      
+      " block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2"
+      " block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1"
+      " block-3 block-3 block-3 block-3 block-3 block-3 block-6 block-6 block-6 block-6 block-6 block-6"
+      " block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4"
+      " block-8 block-8 block-8 block-8 block-8 block-8 block-5 block-5 block-5 block-5 block-5 block-5"
+      " block-7 block-7 block-7 block-7 block-7 block-7 block-5 block-5 block-5 block-5 block-5 block-5"
+      " block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9"
+      " block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10";
+  
+      }
+  
+    .block-8{
+        height: auto;
+    }
+    .block-10{
+        display: flex;
+        justify-content: space-between;
+    }
+    .block-10  h3{
+        width: 60%;
+    }
+
+
+
+}
+
+
+
+/* small screens */
+/* hint : iphone 12 */
+@media all and (640px< width <=768px) {
+    /* code excute when sreen small */
+    .container{
+
+        width: 540px;
+        grid-template-areas: 
+      
+      " block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2"
+      " block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1"
+      " block-3 block-3 block-3 block-3 block-3 block-3 block-6 block-6 block-6 block-6 block-6 block-6"
+      " block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4"
+      " block-8 block-8 block-8 block-8 block-8 block-8 block-5 block-5 block-5 block-5 block-5 block-5"
+      " block-7 block-7 block-7 block-7 block-7 block-7 block-5 block-5 block-5 block-5 block-5 block-5"
+      " block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9"
+      " block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10";
+  
+      }
+  
+    .block-8{
+        height: auto;
+    }
+    .block-10{
+        display: flex;
+        justify-content: space-between;
+    }
+    .block-10 h3{
+
+        width: 50%;
+    }
+ 
+
+ 
+}
+
+
+/* med screens */
+/* hint : iPad */
+@media all and (768px< width <=1024px) {
+    /* code excute when sreen med */
+    .container{
+
+        width: 720px;
+        grid-template-areas: 
+      
+      " block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2 block-2"
+      " block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1 block-1"
+      " block-3 block-3 block-3 block-3 block-3 block-3 block-6 block-6 block-6 block-6 block-6 block-6"
+      " block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4 block-4"
+      " block-8 block-8 block-8 block-8 block-8 block-8 block-5 block-5 block-5 block-5 block-5 block-5"
+      " block-7 block-7 block-7 block-7 block-7 block-7 block-5 block-5 block-5 block-5 block-5 block-5"
+      " block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9 block-9"
+      " block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10 block-10";
+  
+      }
+  
+    .block-8{
+        height: auto;
+    }
+    .block-10{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .block-10 h3{
+
+        width: 40%;
+    }
+ 
+}
+
+
+
+/* large screens */
+/* hint : laptop 13 inch */
+@media all and (1024px< width <=1280px) {
+    /* code excute when sreen lg */
+  .container{
+    width: 960px;
+  }
+
+
+}
+
+/* extra-large screens */
+/* hint : laptop 16 inch */
+@media all and (1280px< width <=1536px) {
+    /* code excute when sreen x-lg */
+   .container{
+    width: 1140px;
+    
+   }
+
+
+}
+
+
+/* extra-large screens */
+/* hint : smart iv inch */
+@media all and (width > 1536px) {
+    /* code excute when sreen 2x-lg */
+    .container{
+        width: 1320px;
+        
+       }
+    
+}
